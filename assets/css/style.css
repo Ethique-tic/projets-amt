@@ -1,0 +1,45 @@
+/*custom style */
+
+
+/********** frise *******/
+
+
+.time-img{
+  overflow-x: scroll;
+  position: relative;
+}
+
+.puce{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: blue;
+  border: 2px solid red;
+  position: absolute;
+  bottom: 108px;
+  left : 86px;
+  z-index: 1;
+}
+
+.bloc-rond{
+  width: 190px;
+  position: absolute;
+  /*left :  0;
+  bottom: 150px;*/
+}
+
+.bloc-text {
+  background-color: green;
+  padding: 5px;
+  text-align: center;
+}
+
+input [type=checkbox]{
+  position : absolute;
+  bottom: 108px;
+  left : 86px;
+  z-index: 2;
+  opacity: inherit;
+  cursor: pointer;
+
+}
